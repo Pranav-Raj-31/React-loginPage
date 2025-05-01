@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: url(https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.container > form {
+    width: 70%;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+    border-radius: 9%;
+}
+
+pre {
+    width: 70%;
+    color: black;
+    font-size: larger;
+}
+
+button {
+    background:  rgb(75, 75, 234)!important;
+    padding: 5px;
+    border-radius: 13px;
+    width: 100%;
+}
+
+p {
+    color: rgb(255, 0, 0);
+}
+
+.text {
+    color: #fff;
+    margin: 2px;
+    padding: 5px;
+}
+
+span{
+    color: white;
+    cursor: pointer;
+}
